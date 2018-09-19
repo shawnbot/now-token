@@ -15,9 +15,7 @@
     "now-token": "cli.js"
   },
   "keywords": [
-    "zeit",
-    "now",
-    "authentication"
+    "zeit-now"
   ],
   "dependencies": {
     "fs-extra": "^7.0.0",
