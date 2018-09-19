@@ -9,7 +9,8 @@
   "scripts": {
     "test": "jest",
     "watch": "jest --watch",
-    "prepublishOnly": "npm test"
+    "prepublishOnly": "npm test",
+    "pub": "npm publish && git push && git push --tags"
   },
   "bin": {
     "now-token": "cli.js"
