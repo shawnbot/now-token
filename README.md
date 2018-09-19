@@ -20,7 +20,7 @@ const fetch = require('isomorphic-unfetch')
 
 nowToken()
   .then(token => {
-    return fetch('https://api.zeit.co/v3/deployments', {
+    return fetch('https://api.zeit.co/v2/now/deployments', {
       headers: {
         Authorization: `Bearer ${token}`
       }
