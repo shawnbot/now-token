@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const options = require('yargs').argv
 const nowToken = require('./')
 
