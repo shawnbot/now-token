@@ -8,7 +8,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "watch": "jest --watch"
+    "watch": "jest --watch",
+    "prepublishOnly": "npm test"
   },
   "bin": {
     "now-token": "cli.js"
